@@ -51,7 +51,6 @@ nav {
 	padding-top: 30px;
 	display: inline-block;
 	float: right;
-	width: 50%;
 }
 
 #navlinks li {
@@ -76,7 +75,6 @@ header {
 	margin: 0;
 	padding: 0;
 	background-color: #FAFAFA;
-	height: 500px;
 	width: 100%;
 }
 
@@ -181,3 +179,102 @@ footer h1 {
 	font-family: 'Quicksand', sans-serif;
 	color: #7accc8;
 }
+
+@media (max-width: 900px) {
+	#intro p {
+		font-size: 28px;
+	}
+
+	#buttons button {
+		margin-left: 10px;
+		padding: 10px 0;
+		width: 150px;
+	}
+} 
+
+@media (max-width: 850px) {
+	nav li {
+		padding: 5px; 
+	}
+
+	#navlinks a {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 780px) {
+	#companylogo {
+		font-size: 16px;
+		padding: 20px;
+	}
+
+	#companylogo img {
+		width: 30px;
+		height: 30px;
+	}
+
+	#intro {
+		padding: 80px 25px;
+	}
+
+	header > img {
+		width: 300px;
+		margin-top: 80px;
+		margin-left: 25px;
+	}
+
+	#buttons {
+		display: block;
+		clear: both;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	#buttons button {
+		height: 40px;
+		width: 200px;
+		margin-left: 20px;
+		margin-top: 30px;
+		padding: 10px 20px;
+	}
+
+}
+
+@media (max-width: 585px) {
+	#companylogo {
+		padding: 20px 10px;
+	}
+
+	#navlinks li:nth-child(3) {
+		display: none;
+	}
+
+	header > img {
+		width: 250px;
+	}
+}
+
+@media (max-width: 501px) {
+	header > img {
+		display: none;
+	}
+
+	#intro {
+		text-align: center;
+	}
+
+	#intro p {
+		margin: 50px auto;
+		width: 80%;
+	}
+}
+
+@media (max-width: 450px) {
+	#navlinks li:nth-child(even) {
+		display: none;
+	}
+}
+
+
+
+
